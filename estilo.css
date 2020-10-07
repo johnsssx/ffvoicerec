@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font: 300 1.3em/1.5 "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
+  background-color: #ef5f5e;
+}
+
+div {
+  padding: 15px;
+  background-color: #2c303b;
+  margin: 25px;
+}
+
+.from {
+  padding:20px 30px;
+  background:#f5f5f5;
+  font-size:30px;
+}
+.from h1 {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+
+input {
+  padding: 9px;
+  font-size: 18px;
+  border: solid 1px #E5E7E9;
+  width: 80%;
+  color: #ef5f5e;
+}
+input[type="button"] {
+  width: 15%;
+}
+
+input:active {
+  color: #ef5f5e;
+}
+
+pre {
+  background-color: #333;
+  border-radius: 3px;
+  padding: 0.75em 1.2em;
+  font-size: 0.8em;
+  white-space: pre;
+  color: #f0f0f0;
+  overflow-x: auto;
+}
